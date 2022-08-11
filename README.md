@@ -12,9 +12,11 @@ Olá! Seja bem vindo ao teste de Vue.js, vamos juntos desenvolver alguns items d
 
 
 
+
 2. **Limitar a lista a apenas 100 elementos**
 
-	Temos uma lista de 1k itens, devemos renderizar apenas 100 elementos exibidos, mas se atente ao fato de que precisaremos aplicar filtros e função de deletar posteriormente.
+	Temos uma lista de 1k itens, devemos renderizar apenas 100 elementos exibidos, mas se atente ao fato de que precisaremos aplicar filtros e função de deletar posteriormente considerando o conjunto todo e não só o exibido.
+
 
 
 3. **Implementar ordenação por Id**
@@ -22,9 +24,11 @@ Olá! Seja bem vindo ao teste de Vue.js, vamos juntos desenvolver alguns items d
 	Botão de ordenação por id, que deve usar o conjunto todo para ordenar.
 
 
+
 4. **Implementar ordenação por Nome**
 
 	Botão de ordenação por nome, que deve usar o conjunto todo para ordenar.
+
 
 
 5. **Implementar botão de remoção**
@@ -35,6 +39,7 @@ Olá! Seja bem vindo ao teste de Vue.js, vamos juntos desenvolver alguns items d
 
 
 É importante que não haja conflito entre as funcionalidades, vamos seguir a implementação na ordem proposta.
+
 
 
 ## Iniciando o projeto
