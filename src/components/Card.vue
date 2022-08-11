@@ -7,7 +7,6 @@
       />
     </div>
     <div class="content">
-      <div class="id">{{ user.id }}</div>
       <div class="name">{{ userName }}</div>
       <div class="email">{{ user.email }}</div>
       <div class="gender">{{ user.gender }}</div>
@@ -56,15 +55,7 @@ export default {
     padding: 16px;
     font-size: 14px;
     position: relative;
-
-    .id {
-      font-size: 10px;
-      font-weight: 800;
-      position: absolute;
-      top: -12px;
-      right: 0;
-    }
-
+    
     .name {
       font-weight: bold;
       margin-bottom: 6px;
